@@ -48,9 +48,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://woowong.github.io"></form>
@@ -757,12 +757,15 @@
 </ul>
 <p>엣지 - 노드 + 2 == 브랜치 + 1<br>이게 많으면 오류가 생길 확률이 높아짐<br>독립적 패스(엣지?)들의 갯수를 의미하고, 각각의 패스를 모두 실행하기위해 테스트가 많이 필요해짐</p>
 <ul>
-<li>Coupling : 모듈 사이의 디펜던시?</li>
-<li>Cohesion : 모듈 내부에서의 디펜던시?<br>뭐가다르지..</li>
-<li><p>dependence : 메서드 호출, 클래스 언급, 변수 공유 등<br><strong>이들은 Design model의 측정기준</strong></p>
+<li>Coupling : <strong>결합도</strong> 모듈 간의 의존성. 높을 수록 구림 -&gt; 왜? 한 모듈 수정하면 딴거도 수정해야해서 복잡해진다.</li>
+<li><p>Cohesion : <strong>응집도</strong> 모듈 내부에서의 의존성 정도. 높을 수록 좋음 -&gt; 왜? 한 모듈이 하는 역할이 명확하고 재사용율이 높으니까. 만약 낮으면 무슨 일을 하는 모듈인지 파악하기가 어려워짐.</p>
 </li>
-<li><p>공유된 변수의 숫자와 복잡성 / 한 모듈 안의 기능은 변수들을 공유할 수 있지만 / 다른 모듈이면 해선 안된다.</p>
+<li><p>dependence : 메서드 호출, 클래스 언급, 변수 공유 등을 의미</p>
 </li>
+</ul>
+<p><strong>이들은 Design model의 측정기준</strong></p>
+<ul>
+<li>공유된 변수의 숫자와 복잡성 / 한 모듈 안의 기능은 변수들을 공유할 수 있지만 / 다른 모듈이면 해선 안된다.</li>
 <li>파라미터의 숫자와 복잡성</li>
 <li>fan-out : 호출되는 펑션이나 모듈 갯수</li>
 <li>fan-in : me를 호출하는 펑션이나 모듈 갯수 (me?)</li>
@@ -835,7 +838,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://woowong.github.io/2017/10/25/SD-Midterm-Lectures/" data-id="cj96pm7130000mdipzejgtr8r" class="article-share-link">Partager</a>
+      <a data-url="http://woowong.github.io/2017/10/25/SD-Midterm-Lectures/" data-id="cj96pm7130000mdipzejgtr8r" class="article-share-link">Share</a>
       
       
     </footer>
@@ -870,7 +873,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Articles récents</h3>
+    <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
         
@@ -891,7 +894,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2017 Jung Hwan Woo<br>
-      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>

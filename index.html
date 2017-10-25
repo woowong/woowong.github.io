@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>woowong</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="woowong">
+<meta property="og:url" content="http://woowong.github.io/index.html">
+<meta property="og:site_name" content="woowong">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="woowong">
+  
+    <link rel="alternate" href="/atom.xml" title="woowong" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">woowong</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://woowong.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-SD-Midterm-Lectures" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/10/25/SD-Midterm-Lectures/" class="article-date">
+  <time datetime="2017-10-25T07:19:31.000Z" itemprop="datePublished">2017-10-25</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/10/25/SD-Midterm-Lectures/">SD_Midterm_Lectures</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="lec1"><a href="#lec1" class="headerlink" title="lec1"></a>lec1</h2><h3 id="how-to-design-software"><a href="#how-to-design-software" class="headerlink" title="how to design software?"></a>how to design software?</h3><ol>
+<li>디자인 구상</li>
+<li>코드 작성</li>
+<li>테스트하고 오류 고침</li>
+<li>완성안되면 다시 1번부터</li>
+</ol>
+<p>=&gt; 디자인, 구현, 테스트, 검증, 보수, 바꾸기, 협업, 시간 맞추기가 어려움</p>
+<p>더 낫게 하는 법?<br>어떤 기준을 둘까</p>
+<ul>
+<li>기능적 올바름, 신뢰성, 유동성, 보안성, …<br>디자인 프로세스를 사용해보자</li>
+<li>코드 작성전에 분석해보고, 기능이 아닌 부분에서의 질적 요소를 고려하고, 불만사항, 비용등을 솔직하게 고려,</li>
+<li>커뮤니케이션 활성화, 소프트웨어의 질 향상</li>
+</ul>
+<h3 id="what-is-software-engineering-not"><a href="#what-is-software-engineering-not" class="headerlink" title="what is software engineering ? not ?"></a>what is software engineering ? not ?</h3><p>NOT -&gt; 소프트웨어 프로그래밍이 아니다. / <strong>개인 vs 팀</strong>, <strong>프로그램 vs. 소프트웨어</strong><br>단순한 프로세스가 아니다. /</p>
+<h3 id="소프트웨어의-다양함"><a href="#소프트웨어의-다양함" class="headerlink" title="소프트웨어의 다양함"></a>소프트웨어의 다양함</h3><p>-&gt; 사이즈, 상호작용법, 안정성의 요구, 신뢰성의 요구, 보안성의 요구, 이동성, 비용<br>=&gt; 쇼핑몰은 사이즈 작고, 상호작용 높고, 신뢰성 보안성이 높지만 비용은 싸다,<br>하지만 우주선 프로그램은 사이즈는 적당히 크고, 보안성은 상관없지만 신뢰성은 엄청 높아야할것이며 비용도 높을것이다.</p>
+<h4 id="소프트웨어-개발의-다양한-방법-gt-계획적일지-애자일일지-중앙화일지-분산화일지-수학이-많이필요할지-구조가-중요한지-기능이-중요한지-등등"><a href="#소프트웨어-개발의-다양한-방법-gt-계획적일지-애자일일지-중앙화일지-분산화일지-수학이-많이필요할지-구조가-중요한지-기능이-중요한지-등등" class="headerlink" title="소프트웨어 개발의 다양한 방법 -&gt; 계획적일지 애자일일지, 중앙화일지 분산화일지, 수학이 많이필요할지, 구조가 중요한지 기능이 중요한지, 등등"></a>소프트웨어 개발의 다양한 방법 -&gt; 계획적일지 애자일일지, 중앙화일지 분산화일지, 수학이 많이필요할지, 구조가 중요한지 기능이 중요한지, 등등</h4><h3 id="Software-Process"><a href="#Software-Process" class="headerlink" title="Software Process"></a>Software Process</h3><ul>
+<li>Pressman<br>고품질 소프트웨어 개발이 요구하는 업무들의 프레임워크</li>
+<li>IEEE 1074<br>특정 목적을 위한 행동들의 세트</li>
+<li>Sommerville<br>software system 개발이 요구하는 구조화된 행동들</li>
+</ul>
+<h3 id="IEEE-1074-Activiies"><a href="#IEEE-1074-Activiies" class="headerlink" title="IEEE 1074 Activiies"></a>IEEE 1074 Activiies</h3><ul>
+<li>프로젝트 관리 : 프로젝트 초기, 계획, 조절, 퀄리티 관리</li>
+<li>개발 : 요구사항, 디자인, 구현</li>
+<li>개발 후 : 설치, 동작, 보수, 철수</li>
+<li>프로세스 통합 : 측정 검증, 소프트웨어 설정 관리</li>
+</ul>
+<h3 id="정의된-프로세스들"><a href="#정의된-프로세스들" class="headerlink" title="정의된 프로세스들"></a>정의된 프로세스들</h3><ul>
+<li>Agile : eXtreme Programming, Scrum, …</li>
+<li>Formal : Rational unified Process, Cleanroom, …</li>
+<li>Open-source : Bazaar, Cathedral, …</li>
+<li>등등등</li>
+</ul>
+<h3 id="소프트웨어-프로세스-모델"><a href="#소프트웨어-프로세스-모델" class="headerlink" title="소프트웨어 프로세스 모델"></a>소프트웨어 프로세스 모델</h3><ul>
+<li>단순화된 소프트웨어 프로세스의 표현 : 특정 프로세스나 각기 다른 개발 접근법에 대한 설명</li>
+<li>예시 : 워터폴, incremental model, prototyping, spiral model, …</li>
+<li>현대 프로세스는 여러 프로세스 모델을 부분적으로 합함</li>
+</ul>
+<h3 id="Waterfall"><a href="#Waterfall" class="headerlink" title="Waterfall"></a>Waterfall</h3><ul>
+<li>가장 초기 모델</li>
+<li>Requirements -&gt; Design -&gt; Implementation -&gt; Verification &amp; Integration -&gt; Maintenance</li>
+<li>계획에 따르고 시퀀셜 한데, 변화 수용이 어렵다.</li>
+</ul>
+<ol>
+<li>Requirements : 소프트웨어가 뭘 해아하지?<br>인터페이스, 기능, 제약사항 고려 / 모호함, 모순, 불완전성 제거</li>
+<li>Design : 소프트웨어가 어떻게 해야하지?<br>모듈 및 스펙 정의 / 요구사항에 적합한지 확인</li>
+<li>Implementation &amp; Integration : 모듈이 어떻게 작동하고 통합되지?<br>실행 가능한 코드, 데이터 기반, 문서화 / 각 모듈을 독립적으로 Unit testing / 모듈 상호작용 System testing</li>
+<li>Maintenance : 소프트웨어의 발전<br>요구사항 변화, 새 기술, 새 플랫폼 고려 / Regression testing - test changes</li>
+</ol>
+<h3 id="Incremental-Development"><a href="#Incremental-Development" class="headerlink" title="Incremental Development"></a>Incremental Development</h3><ul>
+<li>Communication -&gt; Planning -&gt; Modeling -&gt; Construction -&gt; Deployment</li>
+<li>increment #1 진행하는 동시에 2번, 3번, …, n번 째 increment를 점차적으로 실행</li>
+<li>agile 접근법의 기초적 부분, 피드백 반응에 용이</li>
+</ul>
+<h3 id="Prototyping"><a href="#Prototyping" class="headerlink" title="Prototyping"></a>Prototyping</h3><ul>
+<li>last  -&gt; Communication -&gt; Quick plan -&gt; Modeling Quick Design -&gt; Cosntruction of prototype -&gt; Deployment Delivery &amp; Feedback -&gt; first</li>
+<li>원형구조</li>
+<li>prototype : 컨셉 설명의 기초적 버전</li>
+</ul>
+<h3 id="Spiral"><a href="#Spiral" class="headerlink" title="Spiral"></a>Spiral</h3><ul>
+<li>와 그림 복잡해</li>
+<li>risk-driven, prototyping에 incremental까지. 각 루프가 한 페이즈를 의미</li>
+</ul>
+<hr>
+<h2 id="lec2"><a href="#lec2" class="headerlink" title="lec2"></a>lec2</h2><h3 id="소프트웨어-공학"><a href="#소프트웨어-공학" class="headerlink" title="소프트웨어 공학?"></a>소프트웨어 공학?</h3><ul>
+<li>소프트웨어 디자인의 도전과제 : 코드가 커지고 시간에 따라 복잡해지고, 버그가 나타나는 것</li>
+<li>소프트웨어 공학 : 모든 생산 관점에서 고려하는 공학적 규율</li>
+</ul>
+<h3 id="Software-Configuration-Management"><a href="#Software-Configuration-Management" class="headerlink" title="Software Configuration Management"></a>Software Configuration Management</h3><ul>
+<li>정의 : 소프트웨어 시스템 발전을 조절하는 규율</li>
+<li>네가지 메이저한 관점 : 버전 컨트롤, 빌딩, 변화 관리, 릴리징</li>
+<li>큰 프로젝트에서 더 중요한점 : 전문적 기술, 더 넓은 시야, 도구들이 지원하는 특징?</li>
+</ul>
+<h4 id="어떻게-변화를-트래킹하지"><a href="#어떻게-변화를-트래킹하지" class="headerlink" title="어떻게 변화를 트래킹하지?"></a>어떻게 변화를 트래킹하지?</h4><ul>
+<li>기존의 방법은 파일 이름을 숫자로 증가시키는 등.</li>
+<li>그럼 복잡해지는데 어떻게? =&gt; <strong>버전 컨트롤 시스템</strong>이 날 구해줌!</li>
+</ul>
+<h3 id="Version-Control-System-VCS"><a href="#Version-Control-System-VCS" class="headerlink" title="Version Control System VCS"></a>Version Control System VCS</h3><ul>
+<li>구성물의 다양한 버전을 계속 트래킹한다. 여러 개발자가 협업하기 용이하고, 변화를 원복하거나 특정 버전으로 돌아갈 수도 있음</li>
+<li>깃, svn, cvs, 등등..</li>
+</ul>
+<h4 id="코드라인-소스-코드의-버전들"><a href="#코드라인-소스-코드의-버전들" class="headerlink" title="코드라인 : 소스 코드의 버전들"></a>코드라인 : 소스 코드의 버전들</h4><h4 id="베이스라인-그런-소스코드들의-집합체인-하나의-구성품의-버전리스트"><a href="#베이스라인-그런-소스코드들의-집합체인-하나의-구성품의-버전리스트" class="headerlink" title="베이스라인 : 그런 소스코드들의 집합체인 하나의 구성품의 버전리스트"></a>베이스라인 : 그런 소스코드들의 집합체인 하나의 구성품의 버전리스트</h4><h4 id="체크인-체크아웃-레포지터리에-넣고-빼고-하는거"><a href="#체크인-체크아웃-레포지터리에-넣고-빼고-하는거" class="headerlink" title="체크인 체크아웃? : 레포지터리에 넣고 빼고 하는거"></a>체크인 체크아웃? : 레포지터리에 넣고 빼고 하는거</h4><h3 id="version-control-workflow"><a href="#version-control-workflow" class="headerlink" title="version control workflow"></a>version control workflow</h3><ol>
+<li>repository는 완성된 히스토리를 가진다.</li>
+<li>최신 버전을 pull한다</li>
+<li>거기서 작업을 한다</li>
+<li>커밋, 푸시를 하고, 새로운 소프트웨어의 버전이 생성된다.</li>
+</ol>
+<h3 id="parallel-work"><a href="#parallel-work" class="headerlink" title="parallel work?"></a>parallel work?</h3><ul>
+<li>한 코드를 둘이 작업하고 따로 올리면?</li>
+<li>락을 이용 : 불가능. 락놓을때까지 기다리면 비효율적이고 기본적으로 시퀀셜함</li>
+<li>merging : 나중에 올린 사람이 머지를 한다(대부분 자동) / 때때로 버그가 생길 수 있는 단점(테스팅 필요)</li>
+</ul>
+<h3 id="Golden-rule-of-VCS"><a href="#Golden-rule-of-VCS" class="headerlink" title="Golden rule of VCS"></a>Golden rule of VCS</h3><ul>
+<li>커밋을 자주해라, 작은 스텝으로 나누고, 각 스텝의 변화점마다 커밋하며 그걸 푸시를 바로해라</li>
+<li>언커밋/언푸시된 코드를 오래 가지고 있으면 점점 더 다른 코드에 간섭받고 머지하기 힘들어질거다.</li>
+</ul>
+<h3 id="브랜치"><a href="#브랜치" class="headerlink" title="브랜치"></a>브랜치</h3><ul>
+<li>다른 플랫폼 지원, 다른 고객 등에 대한 이유로 브랜치 나누는건 쫌….음..</li>
+</ul>
+<h3 id="build-management"><a href="#build-management" class="headerlink" title="build management"></a>build management</h3><ul>
+<li>프로덕트를 빌드할때 / 무슨 컴파일러로, 어떤 플래그 설정으로, 어떤 소스파일로, 어떤 라이브러리를 쓰며 어떤 버전에서 할것인가?</li>
+<li>빌딩은 자동화되어야 한다. / 정기적으로 테스트빌드를 하며, 중복된 재컴파일을 최소화</li>
+<li>도구를 사용하라 / make, ant, mvn, gradle, 등등</li>
+</ul>
+<h3 id="daily-build-and-smoke-testing"><a href="#daily-build-and-smoke-testing" class="headerlink" title="daily build and smoke testing"></a>daily build and smoke testing</h3><ul>
+<li>빌드 프로세스가 붕괴될 수 있다 / 배드 코드 ? 빌드 스크립트에서 파일 누락? / 라이브러리 이동?</li>
+<li>매일 낮 (혹은 밤)에 최신버전 빌드를 하고 간단한 test suite 실행(called smoke testing)</li>
+</ul>
+<h3 id="개발자가-할일"><a href="#개발자가-할일" class="headerlink" title="개발자가 할일"></a>개발자가 할일</h3><ul>
+<li>워크스페이스 private화는 integration issue를 예방할 수 있음</li>
+<li>system build를 private화 하면 레포지터리에 커밋하기전에 빌드 브레이킹을 예방함</li>
+</ul>
+<hr>
+<h2 id="lec3"><a href="#lec3" class="headerlink" title="lec3"></a>lec3</h2><h3 id="Why-test-What-is-test"><a href="#Why-test-What-is-test" class="headerlink" title="Why test? What is test?"></a>Why test? What is test?</h3><ul>
+<li>fault를 발견하여 품질 향상, 품질 측정, 소프트웨어 학습</li>
+<li>test input을 넣어 output을 확인.</li>
+</ul>
+<h4 id="Test-case-test-inputs-values-data"><a href="#Test-case-test-inputs-values-data" class="headerlink" title="Test case : test inputs, values, data"></a>Test case : test inputs, values, data</h4><h4 id="Test-suite-a-set-of-test-cases"><a href="#Test-suite-a-set-of-test-cases" class="headerlink" title="Test suite : a set of test cases"></a>Test suite : a set of test cases</h4><h4 id="Test-oracle-Test가-성공했는지-결정해주는-메커니즘"><a href="#Test-oracle-Test가-성공했는지-결정해주는-메커니즘" class="headerlink" title="Test oracle : Test가 성공했는지 결정해주는 메커니즘"></a>Test oracle : Test가 성공했는지 결정해주는 메커니즘</h4><h4 id="Mistake-프로그래머가-만드는-것"><a href="#Mistake-프로그래머가-만드는-것" class="headerlink" title="Mistake : 프로그래머가 만드는 것"></a>Mistake : 프로그래머가 만드는 것</h4><h4 id="Fault-프로그램에서-나타나는-버그-실패-코드-상에-있는-문제점들"><a href="#Fault-프로그램에서-나타나는-버그-실패-코드-상에-있는-문제점들" class="headerlink" title="Fault : 프로그램에서 나타나는 버그, 실패 : 코드 상에 있는 문제점들?"></a>Fault : 프로그램에서 나타나는 버그, 실패 : 코드 상에 있는 문제점들?</h4><ul>
+<li>Fault는 test input을 실행하는 testing단게에서 관측되지 않음<h4 id="Failure-실행-과정에서-프로그램이-실행실패-based-on-test-oracle-테스트-실패"><a href="#Failure-실행-과정에서-프로그램이-실행실패-based-on-test-oracle-테스트-실패" class="headerlink" title="Failure : 실행 과정에서 프로그램이 실행실패 (based on test oracle) : 테스트 실패?"></a>Failure : 실행 과정에서 프로그램이 실행실패 (based on test oracle) : 테스트 실패?</h4><h4 id="Error-계산된-값-관찰된-값과-조건이-이론적으로-계산된-값-조건과-다른-경우-사람의-실수"><a href="#Error-계산된-값-관찰된-값과-조건이-이론적으로-계산된-값-조건과-다른-경우-사람의-실수" class="headerlink" title="Error : 계산된 값, 관찰된 값과 조건이 이론적으로 계산된 값, 조건과 다른 경우 : 사람의 실수?"></a>Error : 계산된 값, 관찰된 값과 조건이 이론적으로 계산된 값, 조건과 다른 경우 : 사람의 실수?</h4></li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">void</span> <span class="title">testCalAmount</span><span class="params">()</span> </span>&#123;</div><div class="line">  Acc a = <span class="keyword">new</span> Acc();</div><div class="line">  Acc.setbalance(<span class="number">1</span>); <span class="comment">// test input</span></div><div class="line">  <span class="keyword">int</span> amt = Acc.calAmount();</div><div class="line">  assertTrue(amt == <span class="number">12</span>); <span class="comment">// test oracle</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="테스트의-종류"><a href="#테스트의-종류" class="headerlink" title="테스트의 종류"></a>테스트의 종류</h3><ul>
+<li>프로그래머 테스트 / 논 프로그래머 테스트</li>
+<li>개발자 / 테스터</li>
+<li>unit test / integration test / system test / accpetance test</li>
+<li>automated test / manual test</li>
+<li>regression test / exploratory test<br>?</li>
+</ul>
+<h4 id="Black-Box-Testing-난-기능만-안다"><a href="#Black-Box-Testing-난-기능만-안다" class="headerlink" title="Black Box Testing : 난 기능만 안다"></a>Black Box Testing : 난 기능만 안다</h4><ul>
+<li>소프트웨어 외부적 설명만 보고 작성</li>
+<li>외부적 행동에서 관찰되는 기능과 인터페이스를 테스트</li>
+<li>요구사항, 스펙화, 설계 단계에 해당<h4 id="White-Box-Testing-난-코드까지-안다"><a href="#White-Box-Testing-난-코드까지-안다" class="headerlink" title="White Box Testing : 난 코드까지 안다"></a>White Box Testing : 난 코드까지 안다</h4></li>
+<li>소스코드에 비롯된 테스트</li>
+<li>상세한 부분에서 절차적 단계로 실험</li>
+<li>크래시, out of bound, file not closed, uncaught exception 등 코드상의 문제 테스트</li>
+</ul>
+<h4 id="Top-Down-Testing"><a href="#Top-Down-Testing" class="headerlink" title="Top-Down Testing"></a>Top-Down Testing</h4><ul>
+<li>메인 프로시저 테스트하고 점점 아래로 콜한다.<h4 id="Bottom-Up-Testing"><a href="#Bottom-Up-Testing" class="headerlink" title="Bottom-Up Testing"></a>Bottom-Up Testing</h4></li>
+<li>각 프로시저들을 콜하지 않고 먼저 테스트해보고, 그다음에 메인 프로시저 테스트를 진행</li>
+</ul>
+<blockquote>
+<p>requirements -&gt; high-level design -&gt; detailed desing -&gt; source code</p>
+<p>Acceptance &lt;- System &lt;- Integration &lt;- Unit testing</p>
+</blockquote>
+<h4 id="1-Unit-testing"><a href="#1-Unit-testing" class="headerlink" title="1. Unit testing"></a>1. Unit testing</h4><ul>
+<li>유닛 단위로 테스트, 프로그래머에 의해 실행, <em>*white, bottom-up</em>8에 해당<h4 id="2-Integration-testing"><a href="#2-Integration-testing" class="headerlink" title="2. Integration testing"></a>2. Integration testing</h4></li>
+<li>컴포넌트간의 상호작용을 테스트, 프로그래머에 의해 실행, <strong>white, bottom-up</strong><h4 id="3-System-testing"><a href="#3-System-testing" class="headerlink" title="3. System testing"></a>3. System testing</h4></li>
+<li>완성된 시스템을 요구사항에 맞는지 테스트, 외부 테스터에 의해 실행, <strong>black, top-down</strong><h4 id="4-Acceptaince-testing"><a href="#4-Acceptaince-testing" class="headerlink" title="4. Acceptaince testing"></a>4. Acceptaince testing</h4></li>
+<li>시스템이 고객의 요구사항을 모두 만족하는지 검증, 고객 대표가 실행(알파/베타 테스트), <strong>black, top-down</strong></li>
+</ul>
+<h4 id="Regression-testing"><a href="#Regression-testing" class="headerlink" title="Regression testing"></a>Regression testing</h4><ul>
+<li>지속적으로 이게 잘 작동하는지 모든것을 확실히 하는 테스트</li>
+<li>언제든지 변화할때마다 다시 수행 == 버전이 변화할 때마다 수행</li>
+<li>새 버그가 생겼을 때 regression test에 추가한다.<h4 id="Exploratory-testing"><a href="#Exploratory-testing" class="headerlink" title="Exploratory testing"></a>Exploratory testing</h4></li>
+<li>새 버그를 찾아보자 (스크립트 된 테스팅과 대조적)</li>
+</ul>
+<h4 id="Manual-testing"><a href="#Manual-testing" class="headerlink" title="Manual testing"></a>Manual testing</h4><ul>
+<li>instruction 에 정의된 순서대로 실행해봄. exploratory testing과 GUI테스트 환경에 알맞음<h4 id="Automated-testing"><a href="#Automated-testing" class="headerlink" title="Automated testing"></a>Automated testing</h4></li>
+<li>test가 하나의 프로그램(스크립트), manual test들을 도구로 기록하여 사용</li>
+</ul>
+<p>자동화 테스트를 하면 장점은 인간 에러를 줄이고 품질 테스트를 다양화 할 수 있다.<br>또한 <em>regression test</em>를 하는데 필요한 비용을 획기적으로 줄일 수 있다.<br>리얼 프로젝트는 프로덕션 코드보다 테스트코드가 더 많은 경우도 있다.</p>
+<p>자동화 테스트의 한계점은 사용성 테스트는 자동화 할 수 없다는 것과<br>환경 변화가 있을때마다 테스트코드도 보수해야하고 맞추기 어려움,<br>자동화를 유지하기 위한 비용이 너무 비쌈</p>
+<h4 id="그-외에-testing"><a href="#그-외에-testing" class="headerlink" title="그 외에 testing"></a>그 외에 testing</h4><ul>
+<li>fault-based testing : common fault 찾기</li>
+<li>scenario-based : user story에 따른 테스트</li>
+<li>model-based : softrware model에 따른 테스트</li>
+<li>random test : random input을 넣어서 프로그램이 oracle을 통과하거나 크래시나지 않는지 검사</li>
+</ul>
+<h2 id="Test-Automation"><a href="#Test-Automation" class="headerlink" title="Test Automation"></a>Test Automation</h2><h3 id="Framework-xUnit-framework"><a href="#Framework-xUnit-framework" class="headerlink" title="Framework : xUnit framework."></a>Framework : xUnit framework.</h3><ul>
+<li>unit, integration, functional testing</li>
+<li>regression testing</li>
+<li>test first design</li>
+<li>걍 좋음</li>
+</ul>
+<h3 id="JUnit"><a href="#JUnit" class="headerlink" title="JUnit"></a>JUnit</h3><ul>
+<li>자바에서 쓰는 자동화 도구, 가장 널리 쓰임</li>
+<li><p>assertion, test features, test suites, test runners</p>
+</li>
+<li><p>제이유닛 사용법은 그냥 스킵하자.</p>
+</li>
+</ul>
+<h4 id="Test-fixture"><a href="#Test-fixture" class="headerlink" title="Test fixture?"></a>Test fixture?</h4><ul>
+<li>state of the test</li>
+<li>테스트 전 오브젝트나 변수들의 상태를 초기화하거나 테스트 후에 리셋하는 등</li>
+<li>@Before, @After  runs per every @Test methods</li>
+</ul>
+<h3 id="Parametrized-Unit-Tests-Junit-Theories"><a href="#Parametrized-Unit-Tests-Junit-Theories" class="headerlink" title="Parametrized Unit Tests: Junit Theories"></a>Parametrized Unit Tests: Junit Theories</h3><ul>
+<li>Unit test 는 실제 파라미터를 가짐. 지금까진 없는놈만 봄</li>
+<li>contract model : assume, arrange, act, assert 4A<ul>
+<li>assume : preconditon. value를 적절히 제한</li>
+<li>arrange : 사전조건과 input을 모두 준비</li>
+<li>action : 면밀히조사하며 행동 실행</li>
+<li>assert : result check<h4 id="Patterns-w-Theory"><a href="#Patterns-w-Theory" class="headerlink" title="Patterns w/ @Theory"></a>Patterns w/ @Theory</h4></li>
+</ul>
+</li>
+<li>4A : assume, arrange, action, assert</li>
+<li>Roundtrip : f-1(f(x)) for all x, given API f</li>
+<li>State relation : stathe change 관측</li>
+<li>Commutative diagram : 먼지 모르겟다………. f o i (x) == i o g(x), f and g</li>
+</ul>
+<h3 id="build-scaffolding-for-incomplete-code-비완성-코드를-위한-모의-코드-작성"><a href="#build-scaffolding-for-incomplete-code-비완성-코드를-위한-모의-코드-작성" class="headerlink" title="build scaffolding for incomplete code : 비완성 코드를 위한 모의 코드 작성"></a>build scaffolding for incomplete code : 비완성 코드를 위한 모의 코드 작성</h3><ul>
+<li>코드가 덜 완성돼서 테스트를 위한 코드를 작성해야함</li>
+<li>Stub or Mock : 모듈을 아예 작성. (e.g. movePlayer)</li>
+<li>Driver : 위 모듈을 테스트 하에서 사용한다.<ul>
+<li>provide test input, control execution, report result.</li>
+</ul>
+</li>
+</ul>
+<h2 id="Test-coverage"><a href="#Test-coverage" class="headerlink" title="Test coverage"></a>Test coverage</h2><h3 id="Test-Coverage"><a href="#Test-Coverage" class="headerlink" title="Test Coverage"></a>Test Coverage</h3><ul>
+<li>머스트 비 충족이어야 하는 특정한 목표들</li>
+<li>coverage : 테스트 요구사항의 만족, 테스트의 품질 측정</li>
+<li>완벽한 커버리지는 일반적으로 불가능하다. : 인풋이 너무 많아, 실행불가능한 테스트 요구사항이 존재할 수 있음.</li>
+</ul>
+<h3 id="Test-criteria"><a href="#Test-criteria" class="headerlink" title="Test criteria"></a>Test criteria</h3><ul>
+<li>테스트 요구사항의 규칙 모음 (e.g. 모든 요구사항을 충족하라)</li>
+<li>인풋 스페이스를 찾는 체계적인 방법 제공</li>
+<li><p>자동화된 도구로 coverage analysis, test generation 처리</p>
+</li>
+<li><p>software 모델을 추상적으로 정의</p>
+<ul>
+<li>요구사항(acceptance testing), 설계(integration testing), 소스코드(unit testing)</li>
+</ul>
+</li>
+<li>모델의 test criteria를 찾는다.<ul>
+<li>requirement items, elements in design, modules or lines in code</li>
+</ul>
+</li>
+<li>추상의 레벨 : black box or white box</li>
+</ul>
+<h3 id="Black-Box-Test-Case"><a href="#Black-Box-Test-Case" class="headerlink" title="Black Box Test Case"></a>Black Box Test Case</h3><ul>
+<li>requirements or problem statements를 참고(JavaDoc, user interface, protocols, …)</li>
+<li>Test Case 들은 요구사항을 추적가능하고, 정확한 입력과 예측가능한 결과를 통해 반복가능해야한다.</li>
+<li>간단하게 만들어서 예측된 실패를 테스트해야한다.</li>
+</ul>
+<h4 id="Equivalence-Partitioning"><a href="#Equivalence-Partitioning" class="headerlink" title="Equivalence Partitioning"></a>Equivalence Partitioning</h4><ul>
+<li>같은 클래스에 인풋들은 비슷하게 행동할 것이란 예측을 통해 등가 분할</li>
+<li>test requirement: 각 블락에서 하나의 값이 선택 될 것</li>
+<li>test riteria : 파티션들에서 서브셋을 효율적으로 선택하는 방법?<h4 id="Boundary-Analysis"><a href="#Boundary-Analysis" class="headerlink" title="Boundary Analysis"></a>Boundary Analysis</h4><h4 id="Dirty-Failure-test-case"><a href="#Dirty-Failure-test-case" class="headerlink" title="Dirty/Failure test case"></a>Dirty/Failure test case</h4><h4 id="Input-DOmain-Partitioning-Criteria"><a href="#Input-DOmain-Partitioning-Criteria" class="headerlink" title="Input DOmain Partitioning Criteria"></a>Input DOmain Partitioning Criteria</h4></li>
+<li>Q 가지 특성, 각각은 B_i 블락을 가짐 (i &lt;= Q&gt;)</li>
+<li>모든 조합 : Pi(1, Q)Bi = 4 <em> 4 </em> 4 = 64</li>
+<li>각각의 선택 : max{B_i}(1, Q) = 4</li>
+<li>Pair-wise : &lt;= (max(B_i)(1, Q))^2 }&gt; = 4 * 4 = 16</li>
+<li>T-wise : pari-wise를 2에서 T로 확장 &lt;= (max{B}(1,Q))^T&gt; (each : T=1, pair : T=2, all comb : T=Q)</li>
+</ul>
+<h3 id="White-Box-Testing"><a href="#White-Box-Testing" class="headerlink" title="White Box Testing"></a>White Box Testing</h3><ul>
+<li>각각의 테스트들이 프로그램의 각 부분을 수행해야함, 스테이츠먼트, 브랜치, 패스, 컨디션, 루프,</li>
+<li>많은 테스트 요구사항 - 작성이 오래걸림</li>
+<li>품질 측정 - 얼마나 프로그램이 통과할까</li>
+<li>code coverage tools : jacoco, EclEmma, …</li>
+</ul>
+<p>여전히 Equivalnce partiioning, boundrary analsys 적용,<br>test suite가 좋은 지 평가하기 위한 방법으로</p>
+<ul>
+<li>structural code coverage,</li>
+<li>data flow coverage</li>
+</ul>
+<h4 id="Structural-coverage"><a href="#Structural-coverage" class="headerlink" title="Structural coverage"></a>Structural coverage</h4><ul>
+<li>모든 클래스 안의 모든 메서드가 불려야 한다.</li>
+<li><p>메서드의 모든 라인이 실행되어야한다.</p>
+</li>
+<li><p>브랜치 커버리지 : 모든 예측이 트루 또는 폴스여야 한다, 모두 도달 가능해야한다. aka decision coverage</p>
+</li>
+<li><p>조건 커버리지 : 브랜치는 모든 if문 실행만 본다면, 조건은 모든 if문 속 조건을 전부 확인함</p>
+</li>
+<li><p>루프검사? : 루프 안가는거, 루프 한번가는거, 루프 두번가는거, 루프 여러번가는거 등등 테스트</p>
+</li>
+<li>모든 루프로 가는 길을 따르는건 불가능할걸?</li>
+</ul>
+<h3 id="실행-불가능한-커버리지-못가는-코드들"><a href="#실행-불가능한-커버리지-못가는-코드들" class="headerlink" title="실행 불가능한 커버리지 : 못가는 코드들.."></a>실행 불가능한 커버리지 : 못가는 코드들..</h3><h3 id="Data-flow-coverage"><a href="#Data-flow-coverage" class="headerlink" title="Data flow coverage"></a>Data flow coverage</h3><ul>
+<li>가장 중요한 경로를 찾는다.</li>
+<li>Def : 할당된 변수의 값</li>
+<li>Use : 접근된 변수의 값</li>
+<li><p>defs를 이용한 값은 적어도 하나, 또는 여럿, 또는 모든 uses에 접근가능해야함.</p>
+</li>
+<li><p>All-def coverage, All-use coverage,</p>
+</li>
+</ul>
+<h3 id="Relationship-among-coverage-criteria"><a href="#Relationship-among-coverage-criteria" class="headerlink" title="Relationship among coverage criteria"></a>Relationship among coverage criteria</h3><ul>
+<li>C2를 포함하는 C1 평가기준은 C1이 만족되면 C2도 만족해야함</li>
+<li>익셉션이나 크래시는 없을것이라 가정, 모든 실행은 잘 종료된다고 가정</li>
+<li>e.g. statement include method, branch inlcude statement, all-use include all-def</li>
+<li>not e.g. branch not incldue condition, condition not inlcude branch</li>
+</ul>
+<h3 id="Test-activities"><a href="#Test-activities" class="headerlink" title="Test activities"></a>Test activities</h3><ul>
+<li>Test Design : 커버리지 평가기준을 만족하는 테스트 설계 / criteria-based or human-based</li>
+<li>Test automation : executable script를 통해 테스트</li>
+<li>Test execution : software로 테스트 실행하고 결과를 기록 / 수동 or 자동</li>
+<li>Test evalutation : 결과를 평가하고 개발자에게 보고 / 도메인 지식이 필요</li>
+</ul>
+<h3 id="언제-테스트할것인가"><a href="#언제-테스트할것인가" class="headerlink" title="언제 테스트할것인가?"></a>언제 테스트할것인가?</h3><ul>
+<li>각 개발 페이즈를 하는동안/하고나서 : rquirement analysis, design, coding, …</li>
+<li>변화사항 적용하고 나서 : 자동으로 regression testing</li>
+<li>XP에서 코디전에 : user story에 따른 기본 테스트, 개발 하면서는 coverage를 올리는 테스트 추가</li>
+<li>Continuous Integration CI : 자동으로 유닛테스트, 버전관리,</li>
+</ul>
+<hr>
+<h2 id="lec4"><a href="#lec4" class="headerlink" title="lec4"></a>lec4</h2><p>eXtreme Programming이란 무엇인가?<br>뭐가 다른가?<br>언제 쓰고 안쓰나?</p>
+<ul>
+<li>Plan-driven - Agile.</li>
+</ul>
+<h3 id="Plan-Driven-Waterfall"><a href="#Plan-Driven-Waterfall" class="headerlink" title="Plan-Driven - Waterfall"></a>Plan-Driven - Waterfall</h3><ol>
+<li>Requirements</li>
+<li>Design</li>
+<li>Implementation</li>
+<li>Integration and Testing = Verification</li>
+<li>Maintenance</li>
+</ol>
+<p>이론적으로는 순서대로 흘러간다.</p>
+<p>현실에서는</p>
+<ol>
+<li>Requirements - Analysis</li>
+<li>Design - Verification</li>
+<li>Implementation - Unit testing</li>
+<li>Integration and Testing - System Testing</li>
+<li>Maintenance - Regression Testign<br>으로 역순으로도 참조함.</li>
+</ol>
+<h3 id="Agile-Process-eXtreme-Programming-XP"><a href="#Agile-Process-eXtreme-Programming-XP" class="headerlink" title="Agile Process : eXtreme Programming (XP)"></a>Agile Process : eXtreme Programming (XP)</h3><p>융통성없는 waterfall process와는 다르다.<br>더 협업에 좋고 반복가능한 설계 프로세스로 대체<br>변화 수용에 빠름</p>
+<ul>
+<li>과도한 문서 작성을 하지 않고, 코드 작성과 테스트가 프로덕트 개발에 주 요소</li>
+<li>한 피쳐를 한개씩 개발</li>
+<li>코드를 자주 릴리즈</li>
+<li>고객과 밀접하게 일함</li>
+<li>팀원과 많은 소통</li>
+</ul>
+<ol>
+<li>Planning game : 유저 스토리와 요구사항 정리</li>
+<li>Test-drivcen development : 설계와 테스트 작성</li>
+<li>Refactoring : 설계와 구현</li>
+<li>Pair programming : 개발에서</li>
+<li>CI : integration에서</li>
+</ol>
+<p>XP는 반복가능한 프로세스로 각 Interation 단위로 움직임.</p>
+<p>Interation : 2 week cycle (1-3week)</p>
+<ol>
+<li>각 interation을 시작할때 interation metting을 통해 interation 계획</li>
+<li>iteration은 유저 스토리를 구현</li>
+<li>태스크를 작게 나눠서 각각을 하루에 끝낼 수 있게 함</li>
+<li>매일 프로그래머들은 업무를 위해 페어로 일함</li>
+</ol>
+<h3 id="Pair-Programming"><a href="#Pair-Programming" class="headerlink" title="Pair Programming"></a>Pair Programming</h3><ul>
+<li>Driver : types or writes / coding, design, debugging, testing</li>
+<li>navigator : observes / looking defects</li>
+<li>30분정도마다 교대하라.</li>
+</ul>
+<p>페어프로그래밍이 도 좋은 퀄리티의 코드를 만들어내고,<br>더 적은 시간으로 태스크를 완수하고,<br>더 즐겁게 일하며,<br>더 자신감을 가질 수 있었다고 한다.<br>즉,</p>
+<ul>
+<li>높은 생산성</li>
+<li>싸이클 타임 향상</li>
+<li>프로그래머 만족도 증가</li>
+<li>학습 향상</li>
+<li>페어 로테이션 / 직ㄷ원 교육 전환, 지식 공유, 팀 빌딩 향상 등</li>
+</ul>
+<p>페어프로그래밍은 1950년대에 나온 오래된 개념이지만 XP에서 향상시켜 차용한다.</p>
+<ul>
+<li>페어 프레셔 : 업무에 집중할 수 있게 함</li>
+<li>pair negotitaion : 대안 협상, 서로 다른 경험을 공유한 목표 공유</li>
+<li>pair courage : 내가 맞다고 보고 너가 맞다고 본다면 이건 아마 맞을거임!</li>
+<li>pair review : 두 눈보단 네 눈으로 보는게 낫겠지. 지속적인 설계와 코드 리뷰</li>
+<li>pair debugging : 다른 사람의 문제를 설명.</li>
+<li>pair learning : 다른 파트너의 기술, 지식, 영역으로부터 새로이 배움</li>
+</ul>
+<h3 id="User-Stories"><a href="#User-Stories" class="headerlink" title="User Stories"></a>User Stories</h3><ul>
+<li>고객이 소프트웨어에 원하는 사항들</li>
+<li>고객에 의해 쓰여져야 한다.</li>
+<li>대체로 index card에 쓰임</li>
+</ul>
+<p>필요한 것들 ?</p>
+<ul>
+<li>Materials</li>
+<li>시스템의 목표부터 시작</li>
+<li>유저가 가져야 할 단계를 고려 / 유저가 사용한다는 관점에서</li>
+<li>각 카드에 한개 이상의 스텝을 작성하지 말 것. 복잡해짐..</li>
+</ul>
+<p>유저 스토리의 포맷</p>
+<ul>
+<li>제목 짧게</li>
+<li>Acceptance Test</li>
+<li>우선순위</li>
+<li>스토리 점수 : 작업 시간 산정</li>
+<li>설명 짧게</li>
+</ul>
+<p>필요 조건</p>
+<ul>
+<li>고객이 이해할 수 있어야함</li>
+<li>고객에게 값이 전달되어야 함</li>
+<li>개발자는 쓰면 안됨</li>
+<li>각 이터레이션이 끝날 때 스토리들은 완성되어야함</li>
+<li>스토리들은 각각 가능하면 독립적이어야 함</li>
+<li>각 스토리는 테스트가능해야함</li>
+</ul>
+<p><strong>Need educated customer…</strong></p>
+<h3 id="Planning-Game"><a href="#Planning-Game" class="headerlink" title="Planning Game"></a>Planning Game</h3><p>How to plan</p>
+<ul>
+<li>make a list / everything have to do</li>
+<li>언제까지 할지 결정</li>
+<li>각 업무에 필요한 사항 결정 / 각 업무간의 의존성 등</li>
+</ul>
+<p>얼마나 걸릴까?</p>
+<ul>
+<li>다른 업무랑 비교해봊.</li>
+<li>더 작은 단위로 쪼개보자.</li>
+<li><p>다른 사람들과 다른 관점에서 측정해보자.</p>
+</li>
+<li><p>커스터머는 유저 스토리를 작성한다.</p>
+</li>
+<li>프로그래머는 각 스토리에 대한 시간을 산정한다.</li>
+<li>고객은 속도에 맞는 스토리를 고른다.</li>
+</ul>
+<p>사이즈 측정.</p>
+<ul>
+<li>스토리포인트 : 측정 단위. 사람이나 시간의 양이 아니다.</li>
+<li>이상적 시간 : 시간의 양. 모든 주변업무를 제거하고서.</li>
+<li>경과 시간 : 시계상으로 지난 시간</li>
+<li>속도 Velocity : 이터레이션동안 끝낸 유저스토리 측정값의 합. / 얼마나 잘 프로젝트를 진행했는지의 척도</li>
+</ul>
+<p>스토리 포인트 측정</p>
+<ul>
+<li>구현 난이도를 고려해 중간 사이즈를 5로 정한다. 이것은 실제 시간이 아니라 상대적인 것.</li>
+<li>다른 스토리들을 상대적으로 산정한다.</li>
+<li>값으로만 나타냄</li>
+</ul>
+<p>ideal time 측정</p>
+<ul>
+<li>경과 시간과의 차이는 여러 변수들 / 현재 릴리즈 지원, 미팅, 설명, 병걸림, 전화, 개인적사유 등..</li>
+<li>측정할 때 기준으로 이 일만 하는지, 모든 준비가 되어있는지, 방해가 없을것인지를 기준으로 고려한다.</li>
+</ul>
+<p>ideal time vs. story points</p>
+<ul>
+<li>각각은 노력의 예측물</li>
+<li>story point는 기능에 중점을 둔 사람을 고려하지 않은 순수한 사이즈의 측정기준.</li>
+<li>오래가는 프로젝트에서 전통적으로 더 측정이 빠르다.</li>
+<li>ideal days는 사람에 중점을 둔 측정, 내 이상시간은 니 이상시간이 아니다.</li>
+<li>팀 외부에 설명하기 더 쉬움</li>
+<li>처음 시작하는 프로젝트에서 더 빠름.</li>
+</ul>
+<p><strong>Playing Planning Poker!</strong></p>
+<p>Velocity</p>
+<ul>
+<li>처리한 유저 스토리 점수를 가지고 산정</li>
+<li>팀은 아마 이전 속도처럼 이터레이션을 처리할 것이다.</li>
+<li>극적으로 velocity가 변한다면 릴리즈 플랜을 재 협상하고 재 측정해야한다.</li>
+</ul>
+<p>Velocity를 통해 측정 오류를 잡아낸다. 항상 변화할 것임.</p>
+<p>우선순위</p>
+<ul>
+<li>고객에 의해 결정, 개발자와 협동해서.</li>
+<li>velocity를 충족하기 위해 피쳐를 고른다. / 아 뭐래.. 다른 스토리와의 관계를 통한 스토리의 화합성 고려</li>
+<li>cohesiveness 화합력 예시 / 고우선순위 피쳐에 집중, 그 외에것에는 줌아웃.</li>
+</ul>
+<h3 id="Unit-Test-and-Refactoring"><a href="#Unit-Test-and-Refactoring" class="headerlink" title="Unit Test and Refactoring"></a>Unit Test and Refactoring</h3><p>Simpicity</p>
+<ul>
+<li>한 이터레이션을 고려하여 한 특징을 추가</li>
+<li>미래의 스토리는 고려하지 않는다</li>
+<li>프로그램을 최대한 단순하게 작성하라.</li>
+</ul>
+<p>리커버 심플리시티</p>
+<ul>
+<li>코드 간결하게 해서 새 기능 추가해라</li>
+<li>에전 코드를 단순하게 리팩터링해라</li>
+<li>안전한 refactoring은 유닛테스트의 엄격한 세트를 요구</li>
+</ul>
+<p>아 이거 뭐하는건지 진짜 모르겠다</p>
+<p>Refactoring</p>
+<ul>
+<li>프로그램의 구조를 외부적 행동의 변화 없이 바꾸는 것 / 코드를 읽기 쉽게, 더 자원을 덜사용하도록 수정</li>
+<li>Rename, Extract method and local variable, encapsulate field..</li>
+<li>자동화된 리팩터링을 제공하는 툴도 있음.</li>
+</ul>
+<hr>
+<h2 id="lec5"><a href="#lec5" class="headerlink" title="lec5"></a>lec5</h2><h3 id="Refactoring"><a href="#Refactoring" class="headerlink" title="Refactoring"></a>Refactoring</h3><ul>
+<li>행동의 변화없이 내부 구조를 바꿈 - 이해하기 쉽게, 수정하기 쉽게</li>
+<li>XP, software evolution, making reusable software</li>
+<li>이름 바꾸기, 메서드 추출 또는 한 줄로 줄이기, 지역변수 추출, 메서드 이동, 필드 캡슐화, 등등</li>
+</ul>
+<p>파라미터 추가</p>
+<ol>
+<li>상위, 하위 클래스 확인</li>
+<li>기존 메서드를 복사하고 파라미터 추가</li>
+<li>기존 메서드의 내용을 새롭게 변경</li>
+<li>기존에 대한 모든 참조를 찾고 새로운거로 바꿈</li>
+<li>각 수정사항마다 테스트</li>
+<li>기존꺼 삭제</li>
+</ol>
+<h4 id="레슨-1"><a href="#레슨-1" class="headerlink" title="레슨 1"></a>레슨 1</h4><p>즉 리팩터링은 테스트와 버전컨트롤을 필요로 한다.</p>
+<p>파라미터 오브젝트</p>
+<ul>
+<li>항상 같이 다니는 파라미터들을 그룹지어서 하나의 파라미터로 함 (예: 시작날짜 끝날짜 -&gt; 날짜범위)</li>
+<li>메서드의 파라미터 개수를 줄이고 재사용이 용이</li>
+</ul>
+<ol>
+<li>파라미터 그룹의 뉴 클래스 생성</li>
+<li>뉴 클래스에 ‘Add parameter’ 적용</li>
+<li>기존 파라미터들에 대해<ul>
+<li>콜러 수정</li>
+<li>메서드 바디 수정</li>
+<li>메서드 바디가 다른 메서드를 파라미터 오브젝트로 부르도록 수정</li>
+</ul>
+</li>
+</ol>
+<h4 id="레슨-2"><a href="#레슨-2" class="headerlink" title="레슨 2"></a>레슨 2</h4><p>리팩터링은 작게 진행해야한다.<br>각 스텝이 끝나면 실수가 있었는지 확인한다.<br>하나의 리팩터링은 다른 리팩터링을 불러올 것이다.<br>큰 변화는 많은 리팩터링 스텝을 요구한다.</p>
+<p>Extract method</p>
+<ul>
+<li>출력을 추출해내던가</li>
+<li>불필요한 함수를 인라인으로 바꾸거나</li>
+<li>긴 조건을 final boolean 변수로 선언해서 변수명으로 의미를 설명하거나</li>
+<li>임시적으로 쓰는 변수를 인라이느로 바꾸거나</li>
+<li>임시로 쓰는 변수들을 final변수 두개로 나눠서 의미를 명확히하거나</li>
+</ul>
+<p>그 밖의 리팩터링</p>
+<ul>
+<li>Composing methods<ul>
+<li>Extract Method, Replace Method w/ Method object</li>
+</ul>
+</li>
+<li>오브젝트 간 feature 옮기기<ul>
+<li>Move field, Move method, introduce foreign method,</li>
+</ul>
+</li>
+<li>데이터 구조화<ul>
+<li>field 캡슐화, repalce array w/ object</li>
+</ul>
+</li>
+<li>조건식 단순화<ul>
+<li>replace conditional w/ polymorphism, ?</li>
+</ul>
+</li>
+<li>메서드 호출을 간단하게<ul>
+<li>parameter object, parameterize method, …</li>
+</ul>
+</li>
+</ul>
+<p>자동화된 리팩터링 지원</p>
+<ul>
+<li>뭘 리팩터링 할건지 / 연관정도, 사이즈? 코드 중복, 재활용?</li>
+<li>변화 수행 / 리팩터링 브라우저, 자바의 도구들, 이클립스 등</li>
+</ul>
+<p>리팩터링 ? 리버스 엔지니어링 ?</p>
+<ul>
+<li>리버스 엔지니어링 / 코드를 설계로 컨버팅, 시스템에 대한 이해 요구</li>
+<li>리팩터링 / 코드를 변환, 코드, 메서드들의 모든 사용처를 찾고 오버라이딩 / 테스트 필요, 높은 이해가 필요하지는 않다.</li>
+</ul>
+<p>XP 규칙</p>
+<ul>
+<li>작동하게 만들어야한다. 즉 테스트 수행</li>
+<li>올바르게 만들어야한다. 즉 의미적으로 이해하기 쉽고, 간단하고, 중복없이</li>
+<li>빠르게 만들어야한다. 최적화</li>
+</ul>
+<h2 id="Code-smells"><a href="#Code-smells" class="headerlink" title="Code smells?"></a>Code smells?</h2><p>버그는 아닌데 프로그램을 좀 느리게 한다거나, 여튼 설계상의 문제가 있는 리팩터링이 필요한 코드들</p>
+<ul>
+<li>Duplicate code</li>
+<li>Long mthod</li>
+<li>Large class</li>
+<li>Long parameter list</li>
+<li>Message chain</li>
+<li>Feature envy</li>
+<li>Switch statements</li>
+<li>Data class</li>
+<li>Speculative generality</li>
+<li>Temporary field</li>
+<li>Refused bequest</li>
+<li>Shotgun Surgery</li>
+<li>Parrallel class hierarchies</li>
+</ul>
+<p>Duplicated Code</p>
+<ul>
+<li>서브클래스에서 중복된 메서드들 -&gt; 상위 클래스로 메서드를 옮긴다</li>
+<li>같은 클래스에서 중복된 표현들 -&gt; 매서드 추출</li>
+<li>다른 클래스에서 중복된 표현 -&gt; 메서드 추출, 공통 컴포넌트로 옮긴다</li>
+</ul>
+<p>Long Method</p>
+<ul>
+<li>페이지에 안맞게 너무 길다, 전체 역할이 뭔지 파악하기 힘들다</li>
+<li>-&gt; 메서드 추출 / 반복문 사용, 주석 줄이기? 뭔지모르겠음.</li>
+</ul>
+<p>Large Class</p>
+<ul>
+<li>메서드가 너무 많은 클래스, 변수가 너무 많은 클래스</li>
+<li>-&gt; 컴포넌트 클래스로 분할 / 상위 클래스 생성 / switch문이 있따면 각각을 subclass로 분할</li>
+</ul>
+<p>Long parameter list</p>
+<ul>
+<li>-&gt; Parameter Object 적용, 몇몇 메서드가 가은 파라미터 리스트를 가지고 서로 호출할 때만 가치있음.</li>
+</ul>
+<p>Poor Names</p>
+<ul>
+<li>변수명은 그것의 역할을 반영해야한다. 아주 명백한경우가 아니라면 / 상수, 클래스, 메서드, 데이터 타입형에도 적용</li>
+</ul>
+<p>Message Chain</p>
+<ul>
+<li>method 호출의 체이닝 문제 -&gt; 하나의 더 짧은거로 합쳐서 대체해라.</li>
+</ul>
+<p>Feature envy</p>
+<ul>
+<li>method가 다른데 있어야 할 것 같을 때 -&gt; 옮겨라 알맞은 클래스의 메서드로</li>
+<li>파라미터가 어느 오브젝트 뿐이라면 그 오브젝트 하위가 맞을듯?</li>
+</ul>
+<p>Data class</p>
+<ul>
+<li>method없이 자료만 가지는 클래스</li>
+<li>-&gt; 다른데서 가져올 메서드 확인 / 다른 클래스와 병합가능한지 확인</li>
+</ul>
+<p>Switch statement</p>
+<ul>
+<li>switch문은 메서드 호출로 대체하자.</li>
+<li>각각의 케이스가 서브 클래스</li>
+<li>동적 dispatch/polymorphism 사용</li>
+<li>패턴매칭 (Functional language) 사용</li>
+</ul>
+<p>Speculative Generality</p>
+<ul>
+<li>한 클래스에서만 사용하는 interface나 abstract class는 불필요하니까 제거하자</li>
+</ul>
+<p>Temporary field</p>
+<ul>
+<li>한 오브젝트의 한 실행주기안에서만 사용되는 변수는 다른 오브젝트나 클래스의 변수로 옮기자.</li>
+</ul>
+<p>Refused Bequest</p>
+<ul>
+<li>하위 클래스가 상위 클래스의 일부만 오버라이딩할때</li>
+<li>공통 코드를 상위로 보내고 각각을 다른 하위클래스로 만들어라</li>
+</ul>
+<p>Preventing Change</p>
+<ul>
+<li>Shotgun Surgery<ul>
+<li>수정이 다른 많은 부분의 수정을 부르는 구조일때 -&gt; 아예 새로운 오브젝트를 모든기능을 대신하게 만들어라? (무브 필드 메서드를 통해 수정당하는 많은 놈들을 최대한 줄이는 듯)</li>
+</ul>
+</li>
+<li>Parallel class hierachies<ul>
+<li>한 클래스의 하위클래스를 추가할때마다 다른 클래스의 하위클래스도 생긴다면</li>
+<li>-&gt; 상속계층 인스턴스를 만들고 다른 상속을 참조하도록 하여 언급된 클래스의 상속구조를 제거해야한다. (????)</li>
+</ul>
+</li>
+</ul>
+<p>Comments</p>
+<ul>
+<li>복잡한 코드를 설명하기위해 주석이 쓰인다면 코드가잘못된거니까 리팩터링 해보자.</li>
+</ul>
+<p>버그가 많은것도 코드스멜 - 한부분의 버그가 다른데랑 공유됨<br>이해하기 어려운것도 코드스멜 - 버그 수정이 이해가 안가서 어려움<br>바꾸기 어려운것도 코드스멜 - 테스트가 부족해서 그렇거나 디펜던시가 너무 심함</p>
+<hr>
+<h2 id="lec-6"><a href="#lec-6" class="headerlink" title="lec 6"></a>lec 6</h2><p>Code Analysis</p>
+<ul>
+<li>Software metric : product의 진행도를 어떻게 측정할것인가</li>
+<li>Debugging : debug와 test는 무엇이 다르고 효율적으로 하는 방법은?</li>
+</ul>
+<p>우리가 측정할 것 : 프로세스(사람이 쓴 시간, 버그 리포트, 구현된 스토리들), 프로덕트(코드의 크기와 복잡도)</p>
+<p>프로세스를 측정하는 기준</p>
+<ul>
+<li>프로젝트 참여 인원 수</li>
+<li>걸린 시간, 쓰인 돈</li>
+<li>찾아지고 보고된 버그들 (테스터, 개발자, 유저 포함)</li>
+<li>고쳐진 버그들</li>
+<li>추가된 기능들</li>
+</ul>
+<p>프로덕트를 측정하는 기준</p>
+<ul>
+<li>파일의 양, 클래스의 갯수, 프로세스의 갯수, 코드의 크기</li>
+<li>코드의 복잡도 : 의존도, 중복도, 연관도, 네스티드 깊이, 순환적 복잡함</li>
+</ul>
+<p>시스템의 사이즈는 코드의 줄이나 클래스 펑션 파일의 갯수 등으로 판단한다.<br>그럼 그들은 반복가능하고 요구사항 모델, 설계 모델 또는 코드에 맞게 작업되었는가?</p>
+<p>코드의 줄수</p>
+<ul>
+<li>측정하기 쉬움</li>
+<li>모든 프로젝트가 생성</li>
+<li>빌드 시간과 관게있음</li>
+<li>좋은 기준은 아님.</li>
+<li>따라서 같은언어, 기준을 따르는 포맷, 리뷰된 코드인 경우에만 유효</li>
+</ul>
+<h4 id="Halstead-Volume"><a href="#Halstead-Volume" class="headerlink" title="Halstead Volume"></a>Halstead Volume</h4><p><code>Halstead Volume = total num of operators/operands * log_2(num of distinct operators/operand)</code></p>
+<p>Operators : main, (), {}, int, scanf, &amp;, =, +, /, printf, ,, ; 등.. 모든것<br>Operands : a, b, c, avg, “%d %d %d”, 3, “avg = %d” 등 위에 것들의 인자나 대상이 된것</p>
+<h4 id="Cyclomatic-Complxity-순환복잡도"><a href="#Cyclomatic-Complxity-순환복잡도" class="headerlink" title="Cyclomatic Complxity 순환복잡도"></a>Cyclomatic Complxity 순환복잡도</h4><ul>
+<li>논리적 복잡도 측정</li>
+<li>얼마나 테스트가 필요한지</li>
+<li><code>num of branches + 1</code></li>
+</ul>
+<p>엣지 - 노드 + 2 == 브랜치 + 1<br>이게 많으면 오류가 생길 확률이 높아짐<br>독립적 패스(엣지?)들의 갯수를 의미하고, 각각의 패스를 모두 실행하기위해 테스트가 많이 필요해짐</p>
+<ul>
+<li>Coupling : 모듈 사이의 디펜던시?</li>
+<li>Cohesion : 모듈 내부에서의 디펜던시?<br>뭐가다르지..</li>
+<li><p>dependence : 메서드 호출, 클래스 언급, 변수 공유 등<br><strong>이들은 Design model의 측정기준</strong></p>
+</li>
+<li><p>공유된 변수의 숫자와 복잡성 / 한 모듈 안의 기능은 변수들을 공유할 수 있지만 / 다른 모듈이면 해선 안된다.</p>
+</li>
+<li>파라미터의 숫자와 복잡성</li>
+<li>fan-out : 호출되는 펑션이나 모듈 갯수</li>
+<li>fan-in : me를 호출하는 펑션이나 모듈 갯수 (me?)</li>
+</ul>
+<h4 id="Dhama’s-coupling-metric"><a href="#Dhama’s-coupling-metric" class="headerlink" title="Dhama’s coupling metric"></a>Dhama’s coupling metric</h4><p><code>Moudle coupling = 1 / (input인자 + output인자 + 사용한 글로벌변수 + 호출된 모듈 + 모듈 호출 갯수)</code></p>
+<p>0.5는 낮은 coupling , 0.001은 높은 coupling</p>
+<h4 id="Martin’s-coupling-metric"><a href="#Martin’s-coupling-metric" class="headerlink" title="Martin’s coupling metric"></a>Martin’s coupling metric</h4><p><code>C_a = (afferent 도입된) fan-in coupling</code> : 이 모듈 내부의 클래스에 의존하는 외부 모듈의 클래스 갯수<br><code>C-e = (efferent 수출된) fan-out coupling</code> : 위랑 반대. 외부 클래스에 의존하는 모듈 내부의 클래스<br><code>Instability = C_e / (C_a + C_e)</code> : 1=hihgly unstable, 0=stable (but hard to change)<br>-&gt; Ce가 없으면 나가는게 없고 들어오는것만 있으니까 수정하기 쉽고, Ca Ce 가 많아지면 수정하기 어려운걸 의미하는 듯?</p>
+<p>즉 <code>C_a</code>는 모듈로 들어오는 다른 모듈 갯수, <code>C_e</code>는 모듈에서 나가는 갯수</p>
+<h4 id="Abstractness"><a href="#Abstractness" class="headerlink" title="Abstractness"></a>Abstractness</h4><p><code>abstrcaness = num of abstract classes / num of classes</code><br>=&gt; 0 : 완전히 concrete, 1: 완전히 absract</p>
+<h4 id="Function-Points"><a href="#Function-Points" class="headerlink" title="Function Points"></a>Function Points</h4><ul>
+<li>시스템의 기능성을 측정하는 척도</li>
+<li><strong>Requirements model</strong>의 측정 기준</li>
+</ul>
+<p>어떻게 측정하는가</p>
+<ul>
+<li>인풋, 아웃풋, 알고리즘, 데이터베이스 테이플 갯수등을 센다</li>
+<li>복잡성을 위한 오차를 더해라? 무슨소리야.. 가중치를 말하는 것 같음.</li>
+<li>function pints 측정을 위한 훈련이 필요</li>
+</ul>
+<p><code>FP = count total * (0.65 + 0.01 * sigma(Fi))</code><br><code>Fi(1&lt;= i &lt;= 14)</code> : 값 조정 팩터 == 가중치?<br>산정기준</p>
+<ul>
+<li>시스템이 백업과 리커버리를 요구하는가</li>
+<li>분산된 처리 기능이 있는가</li>
+<li>퍼포먼스가 크리티컬한가??</li>
+<li>시스템이 온라인 데이터를 요구하는가</li>
+<li>내부 프로세싱이 복잡한가.. 등등 뭔지 모르겠는데 많다.</li>
+</ul>
+<h4 id="Maintainability-Index"><a href="#Maintainability-Index" class="headerlink" title="Maintainability Index"></a>Maintainability Index</h4><p>0부터 100 사이의 인덱스 값으로 코드 유지보수의 상대적 편함을 표시하는 값</p>
+<p><code>max(0, 7171 - 5.2*log(Halstead Volume) - 0.23 * (Cyclomatci Complexity) - 16.2 * log(Lines of Code)) * 100 / 171)</code></p>
+<p>이게 뭐야 도대체</p>
+<ul>
+<li>많은 코드를 작성한사람에게 큰 보상을 준다 -&gt; bad라고 생각함.</li>
+<li>모듈의 복잡성을 측정하고 가장 복잡한것을 골라 다시 작성한다 -&gt; 좋지 않을까</li>
+<li>function point를 사용, 시스템이 얼마나 코드를 요구할지 결정, 많은 라인을 작성했다면 시스템에 전달하고 중단. -&gt; ????? 뭔소리</li>
+</ul>
+<p>Track progress</p>
+<ul>
+<li>매니저리뷰 : 관리자가 리포트를 정기적으로 작성<ul>
+<li>Source Line of Code (SLOC)의 성장</li>
+<li>버그 리포트와 수정</li>
+<li>SLOC per function point, SLOC per programmer</li>
+</ul>
+</li>
+<li>information radiator : 전체그룹이 프로젝트 상황을 알수있도록 하는 사람<ul>
+<li>green, red testrunner</li>
+<li>예상된 스토리와 실제 스토리의 wall chart</li>
+<li>예상된, 실제 SLOC의 wall chart</li>
+<li>측정에 따른 매일의 변화를 웹페이지에 공개</li>
+</ul>
+</li>
+</ul>
+<p>Code reviews : 다음 기준들을 코드리뷰전에 확인하자.</p>
+<ul>
+<li>Coverage : 테스트 안된 코드는 대개 버그가 있다.</li>
+<li>Large methods/classes</li>
+<li>보고된 버그를 가진 코드</li>
+</ul>
+<p>Planning</p>
+<ul>
+<li>노력의 양을 예상해야함<ul>
+<li>하고자 하는게 뭔지 확실히, 적합한 프로젝트 기간, 충분한 사람의 고용</li>
+</ul>
+</li>
+<li>컴포넌트들과 SLOC를 예상해야함</li>
+<li>스토리와 개월수 예상 (XP)</li>
+<li>개발자, 기술리더, 관리자들의 의견</li>
+</ul>
+<p>이런 metrics들은 여전히 논란에 있으며, 사용에 주의를 기울여야 함.<br>왜 측정이 필요한지, 목적이 무엇인지, 요소들과의 관계가 어떤지를 고려해야함.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://woowong.github.io/2017/10/25/SD-Midterm-Lectures/" data-id="cj96pm7130000mdipzejgtr8r" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2017/10/25/SD-Midterm-Lectures/">SD_Midterm_Lectures</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 Jung Hwan Woo<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
